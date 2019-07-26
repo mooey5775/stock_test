@@ -22,7 +22,7 @@ window.title("AAPL Information")
 
 fig = Figure(figsize=(5, 4), dpi=100)
 a = fig.add_subplot(111)
-fig.suptitle("AAPL")
+fig.suptitle("AAPL Intraday")
 av_data['4. close'].plot(ax=a)
 canvas = FigureCanvasTkAgg(fig, master=window)
 canvas.draw()
